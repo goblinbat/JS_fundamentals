@@ -1,0 +1,70 @@
+.head {
+    border: 1px solid black;
+    background-color: rgb(202, 202, 136);
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: auto;
+}
+
+.eye {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    background-color: black;
+    position: relative;
+    top: 50px; 
+}
+
+.l {
+    position: relative;
+    left: 30px;
+    display: inline-block;
+}
+
+.r {
+    position: relative;
+    left: 72px;
+    display: inline-block;
+}
+
+.pupil {
+    width: 30px;
+    height: 30px;
+    border-radius: 150px;
+    background-color: white;
+    position: relative;
+    top: 10px;   
+    left: 10px;
+}
+
+.red {
+    width: 2px;
+    height: 2px;
+    background-color: red;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.mouth {
+    width: 175px;
+    height: 75px;
+    border-radius: 0px 0px 150px 150px;
+    background-color: black;
+    position: relative;
+    top: 60px;   
+    left: 13px;
+}
+
+.tongue {
+    width: 60px;
+    height: 15px;
+    border-radius: 150px 150px 0px 0px;
+    background-color: rgb(172, 152, 159);
+    position: relative;
+    top: 60px;
+    left: 57px;
+}
+
+
