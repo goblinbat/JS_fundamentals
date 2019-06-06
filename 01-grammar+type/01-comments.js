@@ -8,6 +8,7 @@
 
 console.log("hello world");
 // press (fn + f8) to run
+// edit: i changed it to ctrl+alt+m, which is easier for me
 
 console.log("how to make bread below (Multiline comment)");
 
