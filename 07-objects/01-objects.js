@@ -34,10 +34,10 @@ let netflix = {
             episodeInfo : [
             { episode: 1, episodeName: "Secret Shopper", description: "Janice hears Roger's sending a secret shopper and pushes everyone to their limits."},
             { episode: 2, episodeName: "Color Wars", description: "Jamie and Daniel have different opinions on what color the store should be repainted."},
-            { episode: 3, episodeName: "Wedding Day Sale", description: ""},
-            { episode: 4, episodeName: "All-Nighter", description: ""},
-            { episode: 5, episodeName: "Demotion", description: ""},
-            { episode: 6, episodeName: "Labor", description: ""}
+            { episode: 3, episodeName: "Wedding Day Sale", description: "To celebrate her upcoming wedding, Janice declares a 'wedding day' sale."},
+            { episode: 4, episodeName: "All-Nighter", description: "Rhys, Jamie, and Mark must stay overtime to work on inventory. A blackout occurs."},
+            { episode: 5, episodeName: "Demotion", description: "Roger gets demoted and everyone wonders who will replace him. Rhys tries asking Jamie out."},
+            { episode: 6, episodeName: "Labor", description: "Janice goes into labor. Roger takes over and quickly wears on everyone's already frayed nerves."}
             ]
         }
     },
