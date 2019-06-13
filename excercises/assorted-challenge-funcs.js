@@ -52,7 +52,13 @@ function placement(arr) {       // this will work with arrays with up to 100 ite
     // return hold;
 }
 
-placement(colors);
+// placement(colors);
 // console.log(placement(colors));
 // console.log(placement(names));
 // console.log(placement(ourClass));
+
+
+
+// Not mine vv
+var randomColor = ('#' + Math.floor(Math.random() * 16777215).toString(16));
+console.log(randomColor)
