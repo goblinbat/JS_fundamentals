@@ -62,3 +62,42 @@ function placement(arr) {       // this will work with arrays with up to 100 ite
 // Not mine vv
 var randomColor = ('#' + Math.floor(Math.random() * 16777215).toString(16));
 console.log(randomColor)
+
+
+
+obj = {
+    name: 'bat',
+    gender: 'heck',
+    age: 23
+}
+comp = 'bat'
+check = 'name'
+
+// mine
+function nameChecker (object, comparison) {
+    let r;
+    if (object.name && comparison) {
+        (object.name == comparison) ? r = true : r = false;
+        return r
+    } else if (object && comparison) {
+        return 'object does not contain name'
+    } else {
+        return 'missing parameter'
+    }
+}
+console.log(nameChecker(obj, comp));
+
+// mostly mine, edited using instructor's as reference in checking object for checker key
+function objChecker (object, checker, comparison) {
+    let r;
+    let keys = Object.keys(obj);
+    if (keys.includes(checker) && comparison) {
+        (object[checker] == comparison) ? r = true : r = false;
+        return r
+    } else if (object && comparison && checker) {
+        return `object does not contain ${checker}`;
+    } else {
+        return 'missing parameter'
+    }
+}
+console.log(objChecker(obj, check, comp))
